@@ -1,0 +1,17 @@
+<!-- 全プロジェクトの共通設定 -->
+<Project>
+  <PropertyGroup>
+    <!-- ターゲットが.NET Frameworkの場合でも決定論的ビルドを有効化 -->
+    <Deterministic>true</Deterministic>
+    <!-- CIでビルドした場合はパスを正規化して決定論的ビルドが崩れないようにする -->
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">True</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 参照パッケージのシンボルファイルを出力フォルダにコピー -->
+    <PackageReference Include="SourceLink.Copy.PdbFiles" Version="2.8.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
