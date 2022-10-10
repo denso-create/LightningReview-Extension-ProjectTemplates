@@ -17,8 +17,8 @@
         <Product>LightningReview.Extension.ProjectTemplates</Product>
         <Copyright>DENSO CREATE INC.</Copyright>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-        <!--<PackageProjectUrl>https://github.com/denso-create/NextDesign-Extension-ProjectTemplates</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/denso-create/NextDesign-Extension-ProjectTemplates</RepositoryUrl>-->
+        <PackageProjectUrl>https://github.com/denso-create/LightningReview-Extension-ProjectTemplates</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/denso-create/LightningReview-Extension-ProjectTemplates</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
@@ -26,12 +26,6 @@
     <ItemGroup>
         <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
         <Compile Remove="**\*" />
-        <Compile Remove="templates\LrExtension\Lib\**" />
-        <Content Remove="templates\LrExtension\Lib\**" />
-        <EmbeddedResource Remove="templates\LrExtension\Lib\**" />
-        <None Remove="templates\LrExtension\Lib\**" />
-        <None Remove="templates\Template.config\template.json" />
         <None Include="readme.md" Pack="true" PackagePath="\" />
-    </ItemGroup>
-
+    </ItemGroup>        
 </Project>

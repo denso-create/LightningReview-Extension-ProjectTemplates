@@ -1,14 +1,14 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "DENSO CREATE",
-    "classifications": ["Lightning Review"],
+    "classifications": [ "Lightning Review" ],
     "identity": "LightningReview.Extension.ProjectTemplates.Extension",
     "groupIdentity": "LightningReview.Extension",
     "name": "Lightning Review Extension",
     "shortName": "lrext",
     "sourceName": "LrExtension",
     "defaultName": "LrExt1",
-    //"icon": "icon.png",
+    "icon": "icon.png",
     "description": "Lightning Review のエクステンションのプロジェクトテンプレートです。",
     "tags": {
         "language": "C#",
