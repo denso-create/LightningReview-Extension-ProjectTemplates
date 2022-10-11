@@ -3,9 +3,16 @@
         <PackageType>Template</PackageType>
         <PackageVersion>1.0.0</PackageVersion>
         <PackageId>LightningReview.Extension.ProjectTemplates</PackageId>
-        <Title>Lightning Review Extension Templates</Title>
+        <Title>Lightning Review Extension Template</Title>
         <Authors>DENSO CREATE INC.</Authors>
-        <Description>Lightning Review のエクステンション開発のためのプロジェクトテンプレートです。
+        <Description>Lightning Reviewのエクステンション開発のためのプロジェクトテンプレートです。dotnetのCLIおよび、Visual Studioで利用できます。
+
+            プロジェクトテンプレートを用いれば非常に簡単にエクステンションの開発をスタートできます。プロジェクトテンプレートにはあらかじめ次のような設定がされています。
+
+            * エクステンションの開発に関するライブラリパッケージの参照
+            * エクステンションの基本的な実装
+            * エクステンションが実行できるようにビルド時にファイルのコピー設定
+
         </Description>
         <PackageTags>Lightning Review;templates</PackageTags>
         <TargetFramework>netstandard2.0</TargetFramework>

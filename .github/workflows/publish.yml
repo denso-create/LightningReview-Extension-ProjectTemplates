@@ -1,0 +1,31 @@
+name: publish to nuget.org
+on:
+  push:
+    branches:
+      - publish
+      
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      # slnファイルの存在するフォルダの相対パス
+      SolutionPath: src
+
+      # nupkgのビルド結果があるbinのパス
+      NugetPackagePath: src/bin/Release
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.x
+
+      - name: Pack
+        run: dotnet pack ${SolutionPath}  --configuration Release
+
+      - name: Push
+        run: |
+          cd ${NugetPackagePath}
+          dotnet nuget push **/*.nupkg --source https://api.nuget.org/v3/index.json  --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate

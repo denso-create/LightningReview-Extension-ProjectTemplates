@@ -1,74 +1,52 @@
-# (リポジトリ名)
-* XXX です。
-
 ## 概要
-### DensoCreate.XXXの特徴
-（ここにライブラリ開発の背景や、ライブラリが提供するフィーチャー、価値を記載する）
-* ...
-* ...
+* Lightning Reviewのエクステンション開発のためのプロジェクトテンプレートです。
+* dotnetのCLIおよび、Visual Studioで利用できます。
 
-### 主なユースケース
-（ここにライブラリの適用ケース、適用外のケースを記載する。）
+> **Notice:**
+> 本ライブラリはLightning Review V2.0.0以降が対象のプロジェクトテンプレートです。Lightning Review V1.Xでは利用できません。
 
-* ...
-* ...
+## インストール方法
+* コマンドプロンプトより次のように実行して下さい。
 
+```
+> dotnet new --install LightningReview.Extension.ProjectTemplate
+```
+
+正常にインストールが完了している場合は次のコマンドを実行すると
+
+```
+> dotnet new 
+```
+
+このように表示されます。
+
+```
+Templates                                     Short Name           Language    Tags
+--------------------------------------------  -------------------  ----------  ----------------------
+Console Application                           console              [C#],F#,VB  Common/Console
+...
+Lightning Review Extension  lrext     [C#]  Lightning Review
+...
+
+```
 
 ## 利用方法
-（ここに利用方法を記載。詳細はdocsフォルダのmdで記載する。）
 
-### Install
-Nuget: DensoCreate.XXX
+* 次のように実行するとエクステンションのプロジェクトを作成できます。
 
 ```
-C:\Project> NuGet Install DensoCreate.XXX
+> dotnet new lrext -n MyExt1
 ```
 
-### 例
+* また、Visual Studioの新規プロジェクト作成のダイアログでも作成可能です。
 
-#### XXする
-```cs
-using DensoCreate.XXX;
-
-// xxする
-var xxx = new xxx();
+## パッケージのアンインストール方法
+次のコマンドを実行して下さい。
 
 ```
-
-#### YYする
-```cs
-// yyする
-var yy = new xxx();
-
+> dotnet new --uninstall LightningReview.Extension.ProjectTemplate
 ```
-## サンプル
-（サンプルへのリンクを記載する）
-`samples/...` を参照のこと。
 
-## 公開パッケージ
-* DensoCreate.ProjectName
- 
-## 依存パッケージ
-（複数のパッケージを公開する場合はパッケージごとに記載のこと）
-
-### DensoCreate.XXX
-* DensoCreate.Logging
-
-### DensoCreate.YY
-* なし
-
-## フレームワーク
-（複数のパッケージを公開する場合はパッケージごとに記載のこと）
-
-### DensoCreate.XXX
-* .NET Standard 2.0
-
-### DensoCreate.YY
-* WPF Core 3.1
-
-
-## （参考リポジトリ）
-ここのreadmeを参考にする。
-* https://github.com/miles-team/DensoCreate.EventAggregator
-* https://github.com/denso-create/LightningReview-ReviewFile
+## ライセンス
+本ライブラリはMITライセンスです。詳細は[LICENSE](https://github.com/denso-create/LightningReview-Extension-ProjectTemplates/blob/main/LICENSE) を確認してください。
 
