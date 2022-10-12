@@ -10,7 +10,7 @@ rem clean packages
 del .\src\bin\Release\*.nupkg
 
 rem pack
-dotnet pack ".\src\NdExtension.ProjectTemplates.csproj" -c Release 
+dotnet pack ".\src\LightningReviewExtension.ProjectTemplates.csproj" -c Release 
 
 rem push
 cd src\bin\Release

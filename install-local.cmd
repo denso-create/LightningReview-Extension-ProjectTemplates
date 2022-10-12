@@ -1,6 +1,6 @@
 
 rem uninstall templates
-dotnet new --uninstall NextDesign.Extension.ProjectTemplates
+dotnet new --uninstall LightningReview.Extension.ProjectTemplates
 
 rem pack 
 del .\src\bin\Release\*.nupkg
