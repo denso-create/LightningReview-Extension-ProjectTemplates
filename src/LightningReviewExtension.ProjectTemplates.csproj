@@ -19,6 +19,7 @@
         <IncludeContentInPack>true</IncludeContentInPack>
         <IncludeBuildOutput>false</IncludeBuildOutput>
         <ContentTargetFolders>content</ContentTargetFolders>
+        <NoWarn>$(NoWarn);NU5128</NoWarn>
         <Version>1.0.0</Version>
         <Company>DENSO CREATE INC.</Company>
         <Product>LightningReview.Extension.ProjectTemplates</Product>
