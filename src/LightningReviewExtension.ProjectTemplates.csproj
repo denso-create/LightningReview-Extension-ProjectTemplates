@@ -34,6 +34,7 @@
     <ItemGroup>
         <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
         <Compile Remove="**\*" />
+        <None Remove="templates\LrExtension\Resources\AddIssuesIcon.png" />
         <None Include="readme.md" Pack="true" PackagePath="\" />
     </ItemGroup>        
 </Project>
