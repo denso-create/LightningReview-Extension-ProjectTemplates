@@ -30,6 +30,8 @@
 > **Notice:**
 > Visual Studio 2019と2022の両方の環境をインストールした場合は、Visual Studio 2022でのみプロジェクトテンプレートが表示されるようになります。
 
+使い方について説明した動画はこちらです。
+
 ## テンプレートの開発
 プロジェクトテンプレートについては次の記事を参考にして下さい。
 * [dotnet new のカスタム テンプレート](https://docs.microsoft.com/ja-jp/dotnet/core/tools/custom-templates)
