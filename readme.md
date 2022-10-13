@@ -12,7 +12,7 @@
 ## 概要
 * Lightning Reviewのエクステンション開発のためのプロジェクトテンプレートです。
 * dotnetのCLIおよび、Visual Studioで利用できます。
-* [Nuget.orgで公開]()しています。
+* [Nuget.orgで公開](https://www.nuget.org/packages/LightningReview.Extension.ProjectTemplates)しています。
   
 > **Notice:**
 > 本ライブラリはLightning Review V2.0.0以降が対象のプロジェクトテンプレートです。Lightning Review V1.Xでは利用できません。
