@@ -6,7 +6,7 @@
 > **Notice:**  
 > 本ライブラリはLightning Review V2.0.0以降が対象のプロジェクトテンプレートです。Lightning Review V1.Xでは利用できません。
 
-プロジェクトテンプレートのインストール方法、利用方法について説明した動画はこちらです。
+プロジェクトテンプレートのインストール方法、利用方法について説明した動画は[こちら](https://www.lightning-review.com/support/help/extension/visualstudio-template.mp4)です。
 
 ## インストール方法
 

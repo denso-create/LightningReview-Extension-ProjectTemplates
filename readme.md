@@ -30,7 +30,7 @@
 > **Notice:**
 > Visual Studio 2019と2022の両方の環境をインストールした場合は、Visual Studio 2022でのみプロジェクトテンプレートが表示されるようになります。
 
-使い方について説明した動画はこちらです。
+使い方について説明した動画は[こちら](https://www.lightning-review.com/support/help/extension/visualstudio-template.mp4)です。
 
 ## テンプレートの開発
 プロジェクトテンプレートについては次の記事を参考にして下さい。
