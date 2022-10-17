@@ -29,11 +29,13 @@
         <RepositoryUrl>https://github.com/denso-create/LightningReview-Extension-ProjectTemplates</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
     </PropertyGroup>
 
     <ItemGroup>
         <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
         <Compile Remove="**\*" />
         <None Include="readme.md" Pack="true" PackagePath="\" />
+        <PackageReference Include="System.Resources.Extensions" Version="6.0.0" />
     </ItemGroup>        
 </Project>
