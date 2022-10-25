@@ -36,25 +36,25 @@ namespace LrExtension
                 .WithSeparatorAfter()
                 .Build();
 
-            // ツールバーのピポット分析ボタンの後(After)にボタンを作成する例
-            // SetButtonでボタンを配置できる。SetTextでテキスト形式のボタンを配置できる。
-            RegisterToolBarItem()
-                .Location("ReviewWindow/ToolBar")
-                .After("ピボット分析")
-                .SetButton()
-                .SetTextStyle()
-                .Command<MessageSettingCommand>()
-                .Build();
-
             // ツールバーのピポット分析ボタンの後(After)に、メニューを作成する例
             // SetToggleButtonでトグルボタンを配置できる。SetImageStyleでイメージで表現するボタンを配置できる。
             RegisterToolBarItem()
                 .Location("ReviewWindow/ToolBar")
                 .After("ピボット分析")
-                .WithSeparatorBefore()
                 .SetButton()
                 .SetImageStyle()
                 .Command<AddIssuesCommand>()
+                .Build();
+
+            // ツールバーのピポット分析ボタンの後(After)にボタンを作成する例
+            // SetButtonでボタンを配置できる。SetTextでテキスト形式のボタンを配置できる。
+            RegisterToolBarItem()
+                .Location("ReviewWindow/ToolBar")
+                .After("ピボット分析")
+                .WithSeparatorBefore()
+                .SetButton()
+                .SetTextStyle()
+                .Command<MessageSettingCommand>()
                 .Build();
 
             // 保存後イベントを使う例

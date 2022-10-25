@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageType>Template</PackageType>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.2</PackageVersion>
         <PackageId>LightningReview.Extension.ProjectTemplates</PackageId>
         <Title>Lightning Review Extension Template</Title>
         <Authors>DENSO CREATE INC.</Authors>
@@ -20,7 +20,7 @@
         <IncludeBuildOutput>false</IncludeBuildOutput>
         <ContentTargetFolders>content</ContentTargetFolders>
         <NoWarn>$(NoWarn);NU5128</NoWarn>
-        <Version>1.0.0</Version>
+        <Version>1.0.2</Version>
         <Company>DENSO CREATE INC.</Company>
         <Product>LightningReview.Extension.ProjectTemplates</Product>
         <Copyright>DENSO CREATE INC.</Copyright>

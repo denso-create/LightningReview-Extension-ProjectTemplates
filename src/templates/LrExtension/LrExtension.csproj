@@ -18,8 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="LightningReview.ExtensionFramework" Version="*" />
+      <PackageReference Include="LightningReview.ExtensionFramework" Version="*" />
     </ItemGroup>
     <ItemGroup>
     <Folder Include="Commands\" />

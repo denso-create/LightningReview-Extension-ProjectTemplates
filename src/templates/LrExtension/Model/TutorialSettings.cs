@@ -1,5 +1,4 @@
 ﻿using System;
-using Newtonsoft.Json;
 
 namespace LrExtension.Model
 {
@@ -11,13 +10,11 @@ namespace LrExtension.Model
 		/// <summary>
 		/// メッセージ
 		/// </summary>
-		[JsonProperty("message")]
-		public string Message { get; set; } = "Hello";
+        public string Message { get; set; } = "Hello";
 
 		/// <summary>
 		/// 日付
 		/// </summary>
-		[JsonProperty("date")]
-		public DateTime? Date { get; set; }
+        public DateTime? Date { get; set; }
 	}
 }
