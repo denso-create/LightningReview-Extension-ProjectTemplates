@@ -13,13 +13,13 @@
 *   コマンドプロンプトより次のように実行して下さい。
 
 ```
-> dotnet new --install LightningReview.Extension.ProjectTemplates
+> dotnet new install LightningReview.Extension.ProjectTemplates
 ```
 
 正常にインストールが完了している場合は次のコマンドを実行すると
 
 ```
-> dotnet new --list
+> dotnet new list
 ```
 
 このように表示されます。
